@@ -2,14 +2,23 @@
   "name": "MagicalPoints",
   "version": "1.0",
   "description": "Student's project",
-  "dependencies": {
-    "debug": "^3.1.0"
-  },
   "engines": {
     "node": "8.9.1"
   },
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
+  "dependencies": {
+    "debug": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rikud/MagicalPoints"
+  },
+  "keywords": [
+    "node",
+    "heroku"
+  ],
   "license": "MIT"
 }
