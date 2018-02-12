@@ -3,14 +3,8 @@ console.log('My first node app');
 const fs = require('fs');
 const path = require('path');
 const http = require('http');
-const debug = require('debug');
-
-const logger = debug('mylogger');
 
 const server = http.createServer((req, res) => {
-	logger(req.url);
-	const filename = req.url === '/' ? 'index.html' : req.url;
-	logger(process.memoryUsage());
 
 	fs.readFile(path.join(__dirname, '/public', req.url), (err, data) => {
 		if (err) {
@@ -24,4 +18,4 @@ const server = http.createServer((req, res) => {
 	});
 });
 
-server.listen(8080);
+server.listen(8888);
