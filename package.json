@@ -1,7 +1,12 @@
 {
-  "name": "",
-  "version": "",
+  "name": "MagicalPoints",
+  "version": "1.0",
+  "description": "Student's project",
   "dependencies": {
     "debug": "^3.1.0"
-  }
+  },
+  "scripts": {
+    "start": "node index.js",
+  },
+  "license": "MIT"
 }
