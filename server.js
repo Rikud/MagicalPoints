@@ -1,11 +1,30 @@
 console.log('My first node app');
 
+const PORT = process.env.PORT || 8080;
 
-const PORT = process.env.PORT || 8080
-const http = require("http");
+const fs = require('fs');
+const path = require('path');
+const http = require('http');
+const debug = require('debug');
 
-http.createServer(function(request, response) {
-  response.writeHead(200, {"Content-Type": "text/plain"});
-  response.write("Hello World");
-  response.end();
-}).listen(PORT, () => console.log(`Listening on ${ PORT }`));
+const logger = debug('mylogger');
+
+const server = http.createServer((req, res) => {
+	console.log(req.url);
+	console.log(process.memoryUsage());
+
+	fs.readFile(path.join(__dirname, '/public', req.url), (err, data) => {
+		console.log(req.url);
+		if (err) {
+			console.log(err);
+			res.writeHead(404, 'file problems');
+			res.end();
+			return;
+		}
+		res.writeHead(200, 'OK');
+		res.write(data);
+		res.end();
+	});
+});
+
+server.listen(PORT, () => console.log(`Listening on ${ PORT }`));
