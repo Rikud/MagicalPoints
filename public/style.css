@@ -1,8 +1,66 @@
 html, body {
-	width:100%;
+	width: 100%;
 	height: 100%;
-	display:flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
+	display: flex;
+	justify-content: center; /*Центрирование по горизонтали*/
+	align-items: center;     /*Центрирование по вертикали */
+
+	background: url(./light-veneer.png);
+
+	font-family: fantasy;
+	font-style: oblique;
+}
+
+.menu {}
+
+.title {
+	margin: auto;
+	text-align: center;
+	font-size: 250%;
+	user-select: none;
+	cursor: default;
+	color: #A52A2A;
+}
+
+.buttonText {
+	font-family: fantasy;
+	margin: auto;
+	user-select: none;
+	cursor: pointer;
+}
+
+.button {
+	display: flex;
+	margin: 40px;
+	width: 200px;
+	height: 100px;
+	background: url(./light-veneer.png);
+
+	border-radius: 50%;
+
+	box-shadow: 0 3px 20px rgba(0, 0, 0, .25),
+	inset 0 2px 0 rgba(255, 255, 255, 6),
+	0 2px 0 rgba(0, 0, 0, .1), 
+	inset 0 0 20px rgba(0, 0, 0, .1);
+	
+	cursor: pointer;
+}
+
+.button:hover {
+	
+	color: #A52A2A;
+
+	box-shadow: 0 3px 20px rgba(0, 0, 0, .25),
+	inset 0 2px 0 rgba(255, 255, 255, 6),
+	0 2px 0 rgba(255, 255, 255, 6), 
+	inset 0 0 20px rgba(255, 255, 255, 6);
+	
+	cursor: pointer;
+}
+
+.button:active {
+	box-shadow: 
+	inset 0 0 20px rgba(0, 0, 0, .2),
+	0 2px 0 rgba(255, 255, 255, 4),
+	inset 0 2px 0 rgba(0, 0, 0, .1);
 }
