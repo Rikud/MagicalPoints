@@ -6,15 +6,13 @@ html, body {
 	align-items: center;     /*Центрирование по вертикали */
 
 	background: url(./light-veneer.png);
-
+	flex-direction: column;
 	font-family: fantasy;
 	font-style: oblique;
 }
 
-.menu {}
-
-.title {
-	margin: auto;
+#title {
+	margin: 20px;
 	text-align: center;
 	font-size: 250%;
 	user-select: none;
@@ -31,7 +29,7 @@ html, body {
 
 .button {
 	display: flex;
-	margin: 40px;
+	margin: 20px;
 	width: 200px;
 	height: 100px;
 	background: url(./light-veneer.png);

@@ -1,0 +1,54 @@
+#scoreTable {
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	background: url(./light-veneer.png);
+
+	border-radius: 10%;
+
+	box-shadow: 0 3px 20px rgba(0, 0, 0, .25),
+	inset 0 2px 0 rgba(255, 255, 255, 6),
+	0 2px 0 rgba(0, 0, 0, .1), 
+	inset 0 0 20px rgba(0, 0, 0, .1);
+
+	color: #A52A2A;
+}
+
+.nicks {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+}
+
+.nick {
+	margin:10px;
+}
+
+.scores {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+}
+
+.score {
+	margin:10px;
+}
+
+.ratingTableButton {
+	width: 200px;
+	height: 80px;
+	margin: 5px;
+	border-radius: 15%;
+}
