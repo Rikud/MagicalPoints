@@ -5,13 +5,13 @@ html, body {
 	justify-content: center; /*Центрирование по горизонтали*/
 	align-items: center;     /*Центрирование по вертикали */
 
-	background: url(./light-veneer.png);
+	background: rgba(254, 245, 230, 1);
 	flex-direction: column;
 	font-family: fantasy;
 	font-style: oblique;
 }
 
-#title {
+.title {
 	margin: 20px;
 	text-align: center;
 	font-size: 250%;
@@ -20,40 +20,43 @@ html, body {
 	color: #A52A2A;
 }
 
-.buttonText {
+.button-text {
 	font-family: fantasy;
 	margin: auto;
 	user-select: none;
 	cursor: pointer;
+	color: black;
 }
 
 .button {
 	display: flex;
+	flex-direction: column;
 	margin: 20px;
-	width: 200px;
-	height: 100px;
-	background: url(./light-veneer.png);
+	width: 150px;
+	height: 75px;
+	background: rgba(200, 78, 92, 1);
 
-	border-radius: 50%;
+	border-radius: 50px;
 
-	box-shadow: 0 3px 20px rgba(0, 0, 0, .25),
-	inset 0 2px 0 rgba(255, 255, 255, 6),
-	0 2px 0 rgba(0, 0, 0, .1), 
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 1),
+	inset 0 2px 0 rgb(208, 78, 92),
+	0 2px 0 rgba(0, 0, 0, .1),
 	inset 0 0 20px rgba(0, 0, 0, .1);
 	
 	cursor: pointer;
 }
 
 .button:hover {
-	
-	color: #A52A2A;
 
-	box-shadow: 0 3px 20px rgba(0, 0, 0, .25),
-	inset 0 2px 0 rgba(255, 255, 255, 6),
-	0 2px 0 rgba(255, 255, 255, 6), 
+	box-shadow: 0 3px 20px rgba(0, 0, 0, .6),
+	0 2px 0 rgba(255, 255, 255, 6),
 	inset 0 0 20px rgba(255, 255, 255, 6);
 	
 	cursor: pointer;
+}
+
+.button:hover .button-text {
+	color: rgba(226,187,146, 1);
 }
 
 .button:active {

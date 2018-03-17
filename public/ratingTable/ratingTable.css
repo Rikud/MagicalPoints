@@ -1,44 +1,14 @@
-#gameField{
-	margin: 40px;
-	width: 400px;
-	height: 400px;
-	background: url(./light-veneer.png);
-
-	border-radius: 10%;
-
-	box-shadow: 0 3px 20px rgba(0, 0, 0, .25),
-	inset 0 2px 0 rgba(255, 255, 255, 6),
-	0 2px 0 rgba(0, 0, 0, .1), 
-	inset 0 0 20px rgba(0, 0, 0, .1);
-
-	display: flex;
-	margin:auto;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-
-	color: #A52A2A;
-}
-
-#gameCenter {
-	display: flex;
-	margin:auto;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
-}
-
 #scoreTable {
 	display: flex;
 	margin: auto;
 	justify-content: space-around;
-	align-items: stretch;
+	align-items: center;
 	flex-direction: row;
 
 	margin: 10px;
 	width: 200px;
-	height: 400px;
-	background: url(./light-veneer.png);
+	height: 200px;
+	background: url(../light-veneer.png);
 
 	border-radius: 10%;
 
@@ -76,9 +46,9 @@
 	margin:10px;
 }
 
-.gameButton {
-	width: 100%;
+.ratingTableButton {
+	width: 200px;
 	height: 80px;
 	margin: 5px;
-	border-radius: 5%;
+	border-radius: 15%;
 }

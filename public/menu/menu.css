@@ -1,0 +1,114 @@
+.menu {
+	display: flex;
+	margin:auto;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.menu__start-game-button {
+	width: 160px;
+	height: 150px;
+	border-radius: 75px;
+}
+
+.button-icon {
+	margin-top: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.play-img {
+	display: flex;
+	width: 30%;
+	margin-left: 5%;
+}
+
+.menu__start-game-button:hover .button-icon .play-img{
+	content:url('./right-arrow-pressed.png');
+}
+
+.menu__login-button {
+	width: 120px;
+	height: 110px;
+	border-radius: 60px;
+}
+
+.login-img {
+	display: flex;
+	width: 30%;
+}
+
+.menu__login-button:hover .button-icon .login-img{
+	content:url('./login-pressed.png');
+}
+
+.menu__registration-button {
+	width: 120px;
+	height: 110px;
+	border-radius: 60px;
+}
+
+.registration-img {
+	display: flex;
+	width: 35%;
+	margin-left: 10px;
+}
+
+.menu__registration-button:hover .button-icon-scoreBoard .play-img{
+	content:url('./registration-pressed.png');
+}
+
+.menu__rating-table-button {
+	width: 120px;
+	height: 110px;
+	border-radius: 60px;
+}
+
+.button-icon-scoreBoard {
+	margin-top: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.scoreBoard-img {
+	display: flex;
+	width: 30%;
+}
+
+.menu__rating-table-button:hover .button-icon-scoreBoard .scoreBoard-img {
+	content:url('./cup-pressed.png');
+}
+
+.menu__about-us-button {
+	width: 120px;
+	height: 110px;
+	border-radius: 60px;
+}
+
+.info-img {
+	display: flex;
+	width: 30%;
+}
+
+.menu__about-us-button:hover .button-icon-scoreBoard .info-img {
+	content:url('./info-pressed.png');
+}
+
+.menu__mini-buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu_setting-button {
+	width: 120px;
+	height: 110px;
+	border-radius: 60px;
+}
+
+.menu_setting-button:hover .button-icon-scoreBoard .info-img {
+	content:url('./settings-pressed.png');
+}
