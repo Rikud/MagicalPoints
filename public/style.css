@@ -65,3 +65,27 @@ html, body {
 	0 2px 0 rgba(255, 255, 255, 4),
 	inset 0 2px 0 rgba(0, 0, 0, .1);
 }
+
+.button-img {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+}
+
+.button-img:hover {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+}
+
+.button-img:active {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+}
