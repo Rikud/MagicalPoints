@@ -10,8 +10,8 @@ html, body {
 
     flex-direction: column;
 
-    /*animation: stars 60s linear infinite;
-*/
+    animation: stars 60s linear infinite;
+
     color: #B130D4;
     font-family: 'Chicle', cursive, fantasy;
 
