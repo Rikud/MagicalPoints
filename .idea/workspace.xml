@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94a628ce-e1a5-46c5-b334-2be5a647b613" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/public/server.js" afterPath="$PROJECT_DIR$/public/server.js" />
+      <change beforePath="$PROJECT_DIR$/public/fore_ground.png" afterPath="$PROJECT_DIR$/public/main-menu/fore_ground.png" />
+      <change beforePath="$PROJECT_DIR$/public/main-menu/index.html" afterPath="$PROJECT_DIR$/public/main-menu/index.html" />
+      <change beforePath="$PROJECT_DIR$/public/mid_ground.png" afterPath="$PROJECT_DIR$/public/main-menu/mid_ground.png" />
+      <change beforePath="$PROJECT_DIR$/public/sky.png" afterPath="$PROJECT_DIR$/public/main-menu/sky.png" />
+      <change beforePath="$PROJECT_DIR$/public/style.css" afterPath="$PROJECT_DIR$/public/main-menu/style.css" />
+      <change beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/server.js">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            <state relative-caret-position="144">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/main-menu/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -73,7 +88,6 @@
         <option value="$PROJECT_DIR$/public/settings/scrollBar.css" />
         <option value="$PROJECT_DIR$/public/settings/gameSettings.css" />
         <option value="$PROJECT_DIR$/public/about/about.css" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/public/menu/index.html" />
         <option value="$PROJECT_DIR$/public/settings/gameSettings.html" />
         <option value="$PROJECT_DIR$/public/style.css" />
@@ -84,6 +98,8 @@
         <option value="$PROJECT_DIR$/public/winPage/winPage.html" />
         <option value="$PROJECT_DIR$/public/elements/elements.html" />
         <option value="$PROJECT_DIR$/public/server.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/public/main-menu/index.html" />
       </list>
     </option>
   </component>
@@ -97,7 +113,6 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
-    <handled-path value="$PROJECT_DIR$/public/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="722" />
@@ -137,6 +152,12 @@
               <item name="MagicalPoints" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MagicalPoints" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagicalPoints" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="main-menu" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -160,11 +181,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/main-menu" />
       <recent name="$PROJECT_DIR$/public/settings" />
       <recent name="$PROJECT_DIR$/public/menu" />
       <recent name="$PROJECT_DIR$/public/signup" />
       <recent name="$PROJECT_DIR$/public/ratingtable" />
-      <recent name="$PROJECT_DIR$/public/signin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -227,18 +248,17 @@
       <updated>1521207581039</updated>
       <workItem from="1521207582447" duration="21035000" />
       <workItem from="1521295996827" duration="12126000" />
-      <workItem from="1522671591619" duration="178000" />
+      <workItem from="1522671591619" duration="424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33339000" />
+    <option name="totallyTimeSpent" value="33585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="722" y="24" width="1183" height="1041" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21217245" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21217245" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -273,7 +293,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/menu/index.html" />
     <entry file="file://$PROJECT_DIR$/public/menu/menu.css" />
-    <entry file="file://$PROJECT_DIR$/public/style.css" />
+    <entry file="file://$PROJECT_DIR$/public/main-menu/style.css" />
     <entry file="file://$PROJECT_DIR$/../../DZ2/2018_1_IT-Berries/public/project/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -344,13 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../DZ2/2018_1_IT-Berries/server/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
@@ -372,7 +385,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/style.css" />
+    <entry file="file://$PROJECT_DIR$/public/main-menu/style.css" />
     <entry file="file://$PROJECT_DIR$/public/ratingTable/ratingTable.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -447,8 +460,24 @@
     <entry file="file://$PROJECT_DIR$/public/menu/index.html" />
     <entry file="file://$PROJECT_DIR$/public/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="72">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/main-menu/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding />
         </state>
       </provider>
