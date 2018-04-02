@@ -1,0 +1,164 @@
+.button {
+    /*background-color: azure;*/
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;     /*Центрирование по вертикали */
+}
+
+.main-button {
+    width:30vmin;
+    height:30vmin;
+}
+
+.secondary-button {
+    width:20vmin;
+    height:20vmin;
+}
+
+.play {
+    background-size: 140% 140%;
+    background-position: 36% 48%;
+    background-image: url("planets/play-btn-original.png");
+
+    box-shadow: 0 0 9vmin 1vmin rgba(228, 255, 0, 0.6),
+    inset 0 0 9vmin rgba(84, 255, 0, 0.6);
+}
+
+.about {
+    background-size: 135% 135%;
+    background-position: 47% 49%;
+    transform: rotate(15deg) translate(190%) rotate(-15deg);
+    background-image: url("planets/about-btn-original.png");
+
+    box-shadow: 0 0 7vmin 1vmin rgba(255, 244, 18, 0.6),
+    inset 0 0 1vmin rgba(255, 212, 12, 0.6);
+}
+.settings {
+    background-size: 142% 142%;
+    background-position: 42% 45%;
+    transform: rotate(65deg) translate(170%) rotate(-65deg);
+    background-image: url("planets/settings-btn-original.png");
+
+    box-shadow: 0 0 5vmin 1vmin rgba(0, 220, 255, 0.3),
+    inset 0 0 1vmin rgba(0, 48, 255, 0.3);
+}
+.score-board {
+    background-size: 142% 142%;
+    background-position: 38% 48%;
+    transform: rotate(115deg) translate(170%) rotate(-115deg);
+    background-image: url("planets/scoreboard-btn-original.png");
+
+    box-shadow: 0 0 5.5vmin 1vmin rgba(150, 53, 148, 0.7),
+    inset 0 0 5vmin rgba(149, 0, 195, 0.7);
+}
+
+.login {
+    background-size: 142% 142%;
+    background-position: 41% 44%;
+    transform: rotate(165deg) translate(190%) rotate(-165deg);
+    background-image: url("planets/login-btn-original.png");
+
+    box-shadow: 0 0 4vmin 1vmin rgba(178, 129, 0, 0.7),
+    inset 0 0 2vmin rgba(173, 71, 0, 0.7);
+}
+
+.icon {
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.button:hover .icon {
+    opacity: 1;
+}
+
+.play-icon {
+    background-image: url("./play.png");
+    width: 40%;
+    height: 40%;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.play:hover {
+    box-shadow: 0 0 7vmin 1vmin rgb(228, 255, 0),
+    inset 0 0 2vmin rgb(84, 255, 0);
+}
+
+.play:active {
+    box-shadow: 0 0 4vmin 1vmin rgb(98, 255, 2),
+    inset 0 0 4vmin 1vmin rgb(228, 255, 0);
+}
+
+.about-icon {
+    background-image: url("./about.png");
+    width: 40%;
+    height: 40%;
+    margin-left: -2%;
+    margin-top: 4%;
+}
+
+.about:hover {
+    box-shadow: 0 0 7vmin 1vmin rgb(252, 255, 0),
+    inset 0 0 1vmin rgb(255, 212, 12);
+}
+
+.about:active {
+    box-shadow: 0 0 7vmin 1vmin rgb(255, 217, 4),
+    inset 0 0 3vmin 1vmin rgb(255, 251, 9);
+}
+
+.settings-icon {
+    background-image: url("./settings.png");
+    width: 40%;
+    height: 40%;
+    margin-top: 5%;
+}
+
+.settings:hover {
+    box-shadow: 0 0 5vmin 1vmin rgba(0, 220, 255, 0.6),
+    inset 0 0 1vmin rgba(0, 48, 255, 0.6);
+}
+
+.settings:active {
+    box-shadow: 0 0 4vmin 1.2vmin rgba(0, 94, 255, 0.6),
+    inset 0 0 2vmin 1vmin rgb(0, 204, 255);
+}
+
+.score-board-icon {
+    background-image: url("./cup.png");
+    width: 40%;
+    height: 40%;
+    margin-left: -1%;
+    margin-top: 5%;
+}
+
+.score-board:hover {
+    box-shadow: 0 0 6vmin 1.2vmin rgb(255, 88, 253),
+    inset 0 0 2vmin rgb(195, 0, 255);
+}
+
+.score-board:active {
+    box-shadow: 0 0 4vmin 1vmin rgb(195, 0, 255),
+    inset 0 0 5vmin rgb(255, 1, 255);
+}
+
+.login-icon {
+    background-image: url("./user.png");
+    width: 50%;
+    height: 50%;
+    margin-left: -1%;
+    margin-top: 8%;
+}
+
+.login:hover {
+    box-shadow: 0 0 6vmin 1vmin rgba(255, 208, 86, 0.7),
+    inset 0 0 2vmin rgba(255, 184, 0, 0.7);
+}
+
+.login:active {
+    box-shadow: 0 0 4vmin 1vmin rgba(255, 184, 0, 0.7),
+    inset 0 0 5vmin rgba(255, 208, 86, 0.7);
+}
