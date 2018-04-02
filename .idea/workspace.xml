@@ -2,54 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94a628ce-e1a5-46c5-b334-2be5a647b613" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/public/about/about.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/about/about.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/about/about.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/about/back-pressed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/about/back.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/defeatPage/defeatPage.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/defeatPage/defeatPage.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/elements/elements.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/elements/settings-pressed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/elements/settings.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/game/game.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/game/game.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/light-veneer.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/login/login.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/login/login.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/login/login.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/menu/cup-pressed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/menu/cup.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/menu/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/menu/info-pressed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/menu/info.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/menu/login-pressed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/menu/login.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/menu/menu.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/menu/menu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/menu/registration-pressed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/menu/registration.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/menu/right-arrow-pressed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/menu/right-arrow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/menu/settings-pressed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/menu/settings.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/ratingTable/ratingTable.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/ratingTable/ratingTable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/registration/registration.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/registration/registration.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/settings/back-pressed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/settings/back.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/settings/gameSettings.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/settings/gameSettings.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/settings/gameSettings.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/settings/scrollBar.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/test/img.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/test/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/test/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/winPage/winPage.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/winPage/winPage.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/server.js" afterPath="$PROJECT_DIR$/public/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,8 +19,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="450">
+              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -274,12 +227,12 @@
       <updated>1521207581039</updated>
       <workItem from="1521207582447" duration="21035000" />
       <workItem from="1521295996827" duration="12126000" />
-      <workItem from="1522671591619" duration="52000" />
+      <workItem from="1522671591619" duration="178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33213000" />
+    <option name="totallyTimeSpent" value="33339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="722" y="24" width="1183" height="1041" extended-state="0" />
@@ -494,8 +447,8 @@
     <entry file="file://$PROJECT_DIR$/public/menu/index.html" />
     <entry file="file://$PROJECT_DIR$/public/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="450">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding />
         </state>
       </provider>
