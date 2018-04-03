@@ -78,6 +78,11 @@ soundInput.addEventListener('focus', () => {
   timerId = setInterval(checkAudeo, 250);
 });
 
+musicInpit.addEventListener('focus', () => {
+  musicOn = true;
+  musicIcon.style.backgroundImage = 'url(./settings/icons/musicOn.png)';
+});
+
 function checkAudeo() {
   if (soundOn) {
     const value = soundInput.value;
