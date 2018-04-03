@@ -13,7 +13,7 @@ const server = http.createServer((req, res) => {
 	console.log(req.url);
 	console.log(process.memoryUsage());
 	const filename = req.url === '/' ? '/index.html' : req.url;
-	fs.readFile(path.join(__dirname, '/public/main-menu', filename), (err, data) => {
+	fs.readFile(path.join(__dirname, '/public', filename), (err, data) => {
 		console.log(req.url);
 		if (err) {
 			console.log(err);

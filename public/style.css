@@ -1,26 +1,23 @@
 html, body {
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center; /*Центрирование по горизонтали*/
-    align-items: center;     /*Центрирование по вертикали */
-
-    background-image: url("sky.png");
-    background-size: 100% 100%;
-
-    flex-direction: column;
-
-    animation: stars 60s linear infinite;
-
-    color: #B130D4;
-    font-family: 'Chicle', cursive, fantasy;
 
     margin: 0;
 }
 
+body {
+    background-image: url("main-menu/sky.png");
+    background-size: 100% 100%;
+
+    color: #B130D4;
+    font-family: 'Chicle', cursive, fantasy;
+
+    /*animation: stars 40s linear infinite;*/
+}
+
 @keyframes stars {
-    from { background-position: 0 100%; }
-    to { background-position: -3644px 100%, 0 0;}
+    from { background-position-x: 0;}
+    to { background-position: -100vw;}
 }
 
 header {
@@ -35,17 +32,12 @@ header {
 
 article {
     width: 100%;
-    height: 55%;
-
-    display: flex;
-    justify-content: center; /*Центрирование по горизонтали*/
-    align-items: center;     /*Центрирование по вертикали */
-    flex-direction: column;
-
+    height: 30%;
     z-index: 9999;
 }
 
 .content {
+    padding-top: 5vh;
     width: 100%;
     hight: 100%;
     display: flex;
@@ -55,14 +47,8 @@ article {
 }
 
 .tittle {
-    width: 100%;
-    height: 25%;
-
-    display: flex;
-    justify-content: center; /*Центрирование по горизонтали*/
-    align-items: center;     /*Центрирование по вертикали */
-
-    font-size: 50pt;
+    padding-top: 3vh;
+    font-size: 10vh;
 }
 
 .content {
