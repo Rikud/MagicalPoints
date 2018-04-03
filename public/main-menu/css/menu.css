@@ -17,7 +17,7 @@
     height:20vmin;
 }
 
-.play {
+.play-button {
     background-size: 140% 140%;
     background-position: 36% 48%;
     background-image: url("../planets/play-btn-original.png");
@@ -26,7 +26,7 @@
     inset 0 0 9vmin rgba(84, 255, 0, 0.6);
 }
 
-.about {
+.about-button {
     background-size: 135% 135%;
     background-position: 47% 49%;
     transform: rotate(15deg) translate(190%) rotate(-15deg);
@@ -35,7 +35,7 @@
     box-shadow: 0 0 7vmin 1vmin rgba(255, 244, 18, 0.6),
     inset 0 0 1vmin rgba(255, 212, 12, 0.6);
 }
-.settings {
+.settings-button {
     background-size: 142% 142%;
     background-position: 42% 45%;
     transform: rotate(65deg) translate(170%) rotate(-65deg);
@@ -44,7 +44,7 @@
     box-shadow: 0 0 5vmin 1vmin rgba(0, 220, 255, 0.3),
     inset 0 0 1vmin rgba(0, 48, 255, 0.3);
 }
-.score-board {
+.score-board-button {
     background-size: 142% 142%;
     background-position: 38% 48%;
     transform: rotate(115deg) translate(170%) rotate(-115deg);
@@ -54,7 +54,7 @@
     inset 0 0 5vmin rgba(149, 0, 195, 0.7);
 }
 
-.login {
+.login-button {
     background-size: 142% 142%;
     background-position: 41% 44%;
     transform: rotate(165deg) translate(190%) rotate(-165deg);
@@ -74,6 +74,14 @@
     opacity: 1;
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
+.button:active .icon {
+    opacity: 1;
+}
+
 .play-icon {
     background-image: url("../icons/play.png");
     width: 40%;
@@ -82,12 +90,12 @@
     margin-top: 2%;
 }
 
-.play:hover {
+.play-button:hover {
     box-shadow: 0 0 7vmin 1vmin rgb(228, 255, 0),
     inset 0 0 2vmin rgb(84, 255, 0);
 }
 
-.play:active {
+.play-button:active {
     box-shadow: 0 0 4vmin 1vmin rgb(98, 255, 2),
     inset 0 0 4vmin 1vmin rgb(228, 255, 0);
 }
@@ -100,12 +108,12 @@
     margin-top: 4%;
 }
 
-.about:hover {
+.about-button:hover {
     box-shadow: 0 0 7vmin 1vmin rgb(252, 255, 0),
     inset 0 0 1vmin rgb(255, 212, 12);
 }
 
-.about:active {
+.about-button:active {
     box-shadow: 0 0 7vmin 1vmin rgb(255, 217, 4),
     inset 0 0 3vmin 1vmin rgb(255, 251, 9);
 }
@@ -117,12 +125,12 @@
     margin-top: 5%;
 }
 
-.settings:hover {
+.settings-button:hover {
     box-shadow: 0 0 5vmin 1vmin rgba(0, 220, 255, 0.6),
     inset 0 0 1vmin rgba(0, 48, 255, 0.6);
 }
 
-.settings:active {
+.settings-button:active {
     box-shadow: 0 0 4vmin 1.2vmin rgba(0, 94, 255, 0.6),
     inset 0 0 2vmin 1vmin rgb(0, 204, 255);
 }
@@ -135,12 +143,12 @@
     margin-top: 5%;
 }
 
-.score-board:hover {
+.score-board-button:hover {
     box-shadow: 0 0 6vmin 1.2vmin rgb(255, 88, 253),
     inset 0 0 2vmin rgb(195, 0, 255);
 }
 
-.score-board:active {
+.score-board-button:active {
     box-shadow: 0 0 4vmin 1vmin rgb(195, 0, 255),
     inset 0 0 5vmin rgb(255, 1, 255);
 }
@@ -153,12 +161,12 @@
     margin-top: 8%;
 }
 
-.login:hover {
+.login-button:hover {
     box-shadow: 0 0 6vmin 1vmin rgba(255, 208, 86, 0.7),
     inset 0 0 2vmin rgba(255, 184, 0, 0.7);
 }
 
-.login:active {
+.login-button:active {
     box-shadow: 0 0 4vmin 1vmin rgba(255, 184, 0, 0.7),
     inset 0 0 5vmin rgba(255, 208, 86, 0.7);
 }
