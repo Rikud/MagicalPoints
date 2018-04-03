@@ -16,7 +16,7 @@ body {
     justify-content: center; /*Центрирование по горизонтали*/
     align-items: center;     /*Центрирование по вертикали */
     flex-direction: column;
-    /*animation: stars 40s linear infinite;*/
+    animation: stars 40s linear infinite;
 }
 
 @keyframes stars {
