@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <head>
     <title>Celestial chase</title>
-    <link rel="stylesheet" type="text/css" href="../style.css">
-    <link rel="stylesheet" type="text/css" href="./settings.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/settings.css">
+    <link rel="stylesheet" type="text/css" href="css/scrollBar.css">
     <link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
 </head>
 <body>
 
 <header>
-    <div class="tittle">Main menu</div>
+    <div class="tittle">Settings</div>
 </header>
 <article>
     <div class="content">
-        <div class="button main-button play">
-            <div class="icon play-icon"></div>
-        </div>
-        <div class="button secondary-button about">
-            <div class="icon about-icon"></div>
-        </div>
-        <div class="button secondary-button settings">
-            <div class="icon settings-icon"></div>
-        </div>
-        <div class="button secondary-button score-board">
-            <div class="icon score-board-icon"></div>
-        </div>
-        <div class="button secondary-button login">
-            <div class="icon login-icon"></div>
+        <div class = "settings">
+            <div class="settings__point">
+                <div class="settings__text">
+                    Sound:
+                </div>
+                <input type="range">
+                <div class="icon sound-icon"></div>
+            </div>
+            <div class="settings__point">
+                <div class="settings__text">
+                    Music:
+                </div>
+                <input type="range">
+                <div class="icon music-icon"></div>
+            </div>
+            <div class="settings__point">
+                <div class="settings__text">
+                    Theme
+                </div>
+                <div class="swither">
+                    <!-- Rounded switch -->
+                    <label class="switch">
+                        <input type="checkbox" class="checker">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
         </div>
     </div>
 </article>

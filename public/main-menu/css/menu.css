@@ -20,7 +20,7 @@
 .play {
     background-size: 140% 140%;
     background-position: 36% 48%;
-    background-image: url("planets/play-btn-original.png");
+    background-image: url("../planets/play-btn-original.png");
 
     box-shadow: 0 0 9vmin 1vmin rgba(228, 255, 0, 0.6),
     inset 0 0 9vmin rgba(84, 255, 0, 0.6);
@@ -30,7 +30,7 @@
     background-size: 135% 135%;
     background-position: 47% 49%;
     transform: rotate(15deg) translate(190%) rotate(-15deg);
-    background-image: url("planets/about-btn-original.png");
+    background-image: url("../planets/about-btn-original.png");
 
     box-shadow: 0 0 7vmin 1vmin rgba(255, 244, 18, 0.6),
     inset 0 0 1vmin rgba(255, 212, 12, 0.6);
@@ -39,7 +39,7 @@
     background-size: 142% 142%;
     background-position: 42% 45%;
     transform: rotate(65deg) translate(170%) rotate(-65deg);
-    background-image: url("planets/settings-btn-original.png");
+    background-image: url("../planets/settings-btn-original.png");
 
     box-shadow: 0 0 5vmin 1vmin rgba(0, 220, 255, 0.3),
     inset 0 0 1vmin rgba(0, 48, 255, 0.3);
@@ -48,7 +48,7 @@
     background-size: 142% 142%;
     background-position: 38% 48%;
     transform: rotate(115deg) translate(170%) rotate(-115deg);
-    background-image: url("planets/scoreboard-btn-original.png");
+    background-image: url("../planets/scoreboard-btn-original.png");
 
     box-shadow: 0 0 5.5vmin 1vmin rgba(150, 53, 148, 0.7),
     inset 0 0 5vmin rgba(149, 0, 195, 0.7);
@@ -58,7 +58,7 @@
     background-size: 142% 142%;
     background-position: 41% 44%;
     transform: rotate(165deg) translate(190%) rotate(-165deg);
-    background-image: url("planets/login-btn-original.png");
+    background-image: url("../planets/login-btn-original.png");
 
     box-shadow: 0 0 4vmin 1vmin rgba(178, 129, 0, 0.7),
     inset 0 0 2vmin rgba(173, 71, 0, 0.7);
@@ -75,7 +75,7 @@
 }
 
 .play-icon {
-    background-image: url("./play.png");
+    background-image: url("../icons/play.png");
     width: 40%;
     height: 40%;
     margin-left: 6%;
@@ -93,7 +93,7 @@
 }
 
 .about-icon {
-    background-image: url("./about.png");
+    background-image: url("../icons/about.png");
     width: 40%;
     height: 40%;
     margin-left: -2%;
@@ -111,7 +111,7 @@
 }
 
 .settings-icon {
-    background-image: url("./settings.png");
+    background-image: url("../icons/settings.png");
     width: 40%;
     height: 40%;
     margin-top: 5%;
@@ -128,7 +128,7 @@
 }
 
 .score-board-icon {
-    background-image: url("./cup.png");
+    background-image: url("../icons/cup.png");
     width: 40%;
     height: 40%;
     margin-left: -1%;
@@ -146,7 +146,7 @@
 }
 
 .login-icon {
-    background-image: url("./user.png");
+    background-image: url("../icons/user.png");
     width: 50%;
     height: 50%;
     margin-left: -1%;

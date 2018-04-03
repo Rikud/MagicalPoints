@@ -1,0 +1,54 @@
+.settings {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    width: 50vmin;
+    height: 50vmin;
+    background: rgba(226, 0, 255, 0.27);
+
+    margin-top: 10vh;
+
+    border-radius: 10%;
+    position: absolute;
+
+    color: whitesmoke;
+    font-size: 5vh;
+}
+
+.settings__point {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.settings__text {
+    display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;     /*Центрирование по вертикали */
+    flex-direction: column;
+    margin: auto;
+}
+
+.icon {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 6vmin;
+    height: 6vmin;
+}
+
+.sound-icon {
+    background-image: url("../icons/volume-off.png");
+}
+
+.music-icon {
+    background-image: url("../icons/music.png");
+}
+
+.swither {
+    margin: auto;
+}
