@@ -31,7 +31,12 @@
     justify-content: center; /*Центрирование по горизонтали*/
     align-items: center;     /*Центрирование по вертикали */
     flex-direction: column;
+    width: 4vmin;
     margin: auto;
+}
+
+.range-text {
+    margin: 4vmin;
 }
 
 .icon {
@@ -39,14 +44,29 @@
     background-size: 100% 100%;
     width: 6vmin;
     height: 6vmin;
+    opacity: 0.8;
+    margin: auto;
+}
+
+.icon:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.icon:active{
+    opacity: 1;
+    cursor: pointer;
 }
 
 .sound-icon {
-    background-image: url("../icons/volume-off.png");
+    background-image: url("../icons/audioOn-2.png");
+    width: 4vmin;
+    height: 4vmin;
+    margin-left: 1vmin;
 }
 
 .music-icon {
-    background-image: url("../icons/music.png");
+    background-image: url("../icons/musicOn.png");
 }
 
 .swither {
