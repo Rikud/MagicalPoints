@@ -66,7 +66,7 @@
 
 .login-form__link:hover {
     color: #ee13ff;
-    text-shadow: 1px 1px 2px black, 0 0 4vmin azure;
+    text-shadow: 1px 1px 2px black, 0 0 3vmin azure;
 }
 
 .login-form__button {
@@ -85,4 +85,20 @@
 .login-form__button:hover {
     cursor: pointer;
     text-shadow: 0.1vmin 0.1vmin 1vmin black, 0 0 5vmin azure;
+
+    box-shadow: 0 3px 20px rgba(100, 1, 168, 0.6),
+    0 0.1vmin 0 rgb(100, 1, 168),
+    inset 0 0 20px rgb(184, 4, 255);
+}
+
+.login-form__button:focus {
+    outline: none !important;
+}
+
+.login-form__button:active {
+    box-shadow:
+    inset 0 0 20px rgba(0, 0, 0, 0.33),
+    0 2px 0 rgb(67, 1, 113),
+    inset 0 2px 0 rgba(0, 0, 0, 0.2);
+    text-shadow: none;
 }
