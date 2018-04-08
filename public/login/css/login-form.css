@@ -35,9 +35,9 @@
     text-align: center;
     color: #6636ff;
 
-    font-family: 'Chicle', cursive, fantasy;
     font-size: 4vmin;
     box-shadow: 0 0 2vmin #8924cc;
+    font-family: 'Chicle', cursive, fantasy;
 }
 
 .form-input:focus {
@@ -52,8 +52,8 @@
 }
 
 .login-form__links {
-    width: 49vmin;
-    font-size: 3vmin;
+    width: 47vmin;
+    font-size: 2.5vmin;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -62,6 +62,7 @@
 
 .login-form__link {
     color: azure;
+    font-family: arial;
 }
 
 .login-form__link:hover {
@@ -70,8 +71,8 @@
 }
 
 .login-form__button {
-    width: 40vmin;
-    height: 8vmin;
+    width: 41vmin;
+    height: 7vmin;
 
     margin: 2vmin;
     background-color: #560188;
@@ -80,6 +81,9 @@
     border-radius: 1.5vmin;
     border: 0.4vmin solid #560188;
     box-shadow: 0.5vmin 0.5vmin 2vmin  #430171;
+
+    font-family: 'Chicle', cursive, fantasy;
+    font-size: 4.5vmin;
 }
 
 .login-form__button:hover {
