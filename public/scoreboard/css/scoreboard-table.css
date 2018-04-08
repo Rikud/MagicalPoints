@@ -22,13 +22,13 @@ table {
     margin-top: 14vmin;
     border-width: 0.5vmin;
     border-style: solid;
-    border-color: rgb(68, 0, 168);
+    border-color: rgb(17, 0, 168);
     font-size: 4vmin;
     color: azure;
 
     border-spacing: 0;
 
-    box-shadow: 0 0 3vmin 1vmin rgba(73, 0, 199, 0.55);
+    box-shadow: 0 0 1vmin 0.5vmin rgba(73, 0, 199, 0.55);
 }
 table ,tr td {
     text-align: center;
