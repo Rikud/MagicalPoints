@@ -79,8 +79,8 @@ footer {
 
 .home {
     position: absolute;
-    width: 10vmin;
-    height: 10vmin;
+    width: 7vmin;
+    height: 7vmin;
     background-image: url("../icons/home.png");
     background-size: 100% 100%;
     left: 2vmin;
@@ -94,9 +94,9 @@ footer {
 }
 
 .profile {
-    width: 25vmin;
+    width: 20vmin;
     color: azure;
-    font-size: 8vmin;
+    font-size: 6vmin;
     opacity: 0.8;
     user-select: none;
     position: absolute;
@@ -117,8 +117,8 @@ footer {
 .profile-icon {
     position: absolute;
     display: inline-block;
-    width: 10vmin;
-    height: 10vmin;
+    width: 8vmin;
+    height: 8vmin;
     background-image: url("../icons/no-avatar-white.png");
     background-size: 100% 100%;
 }
