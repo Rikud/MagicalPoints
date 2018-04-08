@@ -154,9 +154,9 @@
 }
 
 .login-icon {
-    background-image: url("../icons/user.png");
-    width: 50%;
-    height: 50%;
+    background-image: url("../../icons/singleplayer.png");
+    width: 15vmin;
+    height: 15vmin;
     margin-left: -1%;
     margin-top: 8%;
 }
