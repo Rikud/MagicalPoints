@@ -36,11 +36,11 @@
 
 .user-data {
     width: 20vmin;
-    height: 20vmin;
+    height: 18vmin;
 
     border-spacing: 0;
 
-    font-size: 4vmin;
+    font-size: 3.5vmin;
 }
 
 table tr td {
