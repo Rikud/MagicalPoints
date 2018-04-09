@@ -19,7 +19,7 @@
 
 .avatar {
     width: 42vmin;
-
+    height: 10vmin;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -39,7 +39,7 @@
     font-size: 3vmin;
     user-select: none;
     background-color: #6035db;
-    border-color: #6035db;;
+    border-color: #6035db;
 }
 
 .avatar-button:hover {
@@ -63,9 +63,11 @@
     margin-left: 2vmin;
     color: azure;
     font-size: 3.5vmin;
+    width: 20vmin;
+    word-wrap: break-word;
 }
 
-.form-input {
+.registration-input {
     width: 42vmin;
 }
 
