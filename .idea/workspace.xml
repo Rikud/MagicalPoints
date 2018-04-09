@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94a628ce-e1a5-46c5-b334-2be5a647b613" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/end-game-page/css/stars.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/end-game-page/win/index.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/public/end-game-page/icons/Stars_01_512x512_006_dark.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/end-game-page/icons/popup_background.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/end-game-page/index.html" afterPath="$PROJECT_DIR$/public/end-game-page/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/settings/css/settings.css" afterPath="$PROJECT_DIR$/public/settings/css/settings.css" />
+      <change beforePath="$PROJECT_DIR$/public/end-game-page/css/stars.css" afterPath="$PROJECT_DIR$/public/end-game-page/css/stars.css" />
+      <change beforePath="$PROJECT_DIR$/public/end-game-page/index.html" afterPath="$PROJECT_DIR$/public/end-game-page/lose/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,20 +20,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/end-game-page/index.html">
+        <entry file="file://$PROJECT_DIR$/public/end-game-page/lose/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="81" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="81" />
+            <state relative-caret-position="180">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="end-game-board.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="end-game-board.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/end-game-page/css/end-game-board.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+            <state relative-caret-position="162">
+              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/end-game-page/win/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -44,8 +52,8 @@
       <file leaf-file-name="stars.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/end-game-page/css/stars.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="144">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -90,8 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/game/game.css" />
-        <option value="$PROJECT_DIR$/public/about/about.js" />
         <option value="$PROJECT_DIR$/public/about/scrollBar.css" />
         <option value="$PROJECT_DIR$/public/settings/gameSettings.js" />
         <option value="$PROJECT_DIR$/public/menu/menu.js" />
@@ -139,8 +145,10 @@
         <option value="$PROJECT_DIR$/public/login/css/login-form.css" />
         <option value="$PROJECT_DIR$/public/login/css/stars.css" />
         <option value="$PROJECT_DIR$/public/end-game-page/index.html" />
-        <option value="$PROJECT_DIR$/public/end-game-page/css/stars.css" />
         <option value="$PROJECT_DIR$/public/end-game-page/css/end-game-board.css" />
+        <option value="$PROJECT_DIR$/public/end-game-page/lose/index.html" />
+        <option value="$PROJECT_DIR$/public/end-game-page/css/stars.css" />
+        <option value="$PROJECT_DIR$/public/end-game-page/win/index.html" />
       </list>
     </option>
   </component>
@@ -156,7 +164,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="732" />
+    <option name="x" value="492" />
     <option name="y" value="24" />
     <option name="width" value="1188" />
     <option name="height" value="1026" />
@@ -206,7 +214,20 @@
               <item name="MagicalPoints" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="end-game-page" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="lose" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MagicalPoints" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagicalPoints" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="end-game-page" type="462c0819:PsiDirectoryNode" />
+              <item name="win" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MagicalPoints" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagicalPoints" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MagicalPoints" type="b2602c69:ProjectViewProjectNode" />
@@ -255,18 +276,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/end-game-page/win" />
       <recent name="$PROJECT_DIR$/public/end-game-page/icons" />
       <recent name="$PROJECT_DIR$/public/icons" />
       <recent name="$PROJECT_DIR$/public/scoreboard/css" />
       <recent name="$PROJECT_DIR$/public/settings/icons" />
-      <recent name="$PROJECT_DIR$/public/settings" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/end-game-page/lose" />
       <recent name="$PROJECT_DIR$/public/end-game-page/css" />
       <recent name="$PROJECT_DIR$/public/registration" />
       <recent name="$PROJECT_DIR$/public/icons" />
       <recent name="$PROJECT_DIR$/public/pages" />
-      <recent name="$PROJECT_DIR$/public/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -281,12 +302,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (5)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
     <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MagicalPoints/public/registration/index.html" />
+    <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MagicalPoints/public/end-game-page/win/index.html" />
     <configuration name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MagicalPoints/public/profile/index.html" />
-    <configuration name="index.html (4)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MagicalPoints/public/scoreboard/index.html" />
-    <configuration name="index.html (5)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MagicalPoints/public/end-game-page/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MagicalPoints/public/login/index.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MagicalPoints/public/end-game-page/lose/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MagicalPoints/public/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MagicalPoints/public/main-menu/index.html" />
     <configuration name="Unnamed" type="js.build_tools.npm" factoryName="npm">
@@ -300,19 +321,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="npm.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
-      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.index.html (5)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (5)" />
+      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (5)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (5)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -341,15 +362,15 @@
       <workItem from="1523004467793" duration="2496000" />
       <workItem from="1523109173676" duration="13981000" />
       <workItem from="1523194595047" duration="10451000" />
-      <workItem from="1523212655753" duration="9348000" />
+      <workItem from="1523212655753" duration="9968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103353000" />
+    <option name="totallyTimeSpent" value="103973000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="732" y="24" width="1188" height="1026" extended-state="0" />
+    <frame x="492" y="24" width="1188" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23737374" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -362,7 +383,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.225" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.225" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -385,7 +406,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/about/about.js" />
     <entry file="file://$PROJECT_DIR$/public/ratingTable/ratingTable.html" />
     <entry file="file://$PROJECT_DIR$/public/about/about.html" />
     <entry file="file://$PROJECT_DIR$/public/about/about.css" />
@@ -652,26 +672,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/end-game-page/css/stars.css">
+    <entry file="file://$PROJECT_DIR$/public/end-game-page/lose/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/end-game-page/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="81" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="81" />
+        <state relative-caret-position="180">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/end-game-page/css/end-game-board.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        <state relative-caret-position="162">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/end-game-page/css/stars.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/end-game-page/win/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding />
         </state>
       </provider>

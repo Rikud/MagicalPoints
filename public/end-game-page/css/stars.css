@@ -16,14 +16,20 @@
     background-image: url("../icons/dark-star.png");
 }
 
+.light-star {
+    position: absolute;
+    background-size: 100% 100%;
+    background-image: url("../../icons/star.png");
+}
+
 .end-game-board__star-1 {
-    transform: translateX(-12vmin) rotate(-20deg) translateY(-18vmin) rotate(144deg);
+    transform: translateX(-12vmin) rotate(-20deg) translateY(-18vmin);
 }
 
 .end-game-board__star-2 {
-    transform: translateY(-20vmin) rotate(144deg);
+    transform: translateY(-20vmin);
 }
 
 .end-game-board__star-3 {
-    transform: translateX(12vmin) rotate(20deg) translateY(-18vmin) rotate(-144deg);;
+    transform: translateX(12vmin) rotate(20deg) translateY(-18vmin);
 }
