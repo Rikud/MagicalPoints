@@ -33,6 +33,11 @@
     text-align: center;
 }
 
+.end-game-board__total-table tr:nth-child(1)>td:nth-child(2) {
+    padding-bottom: 2.15vmin;
+}
+
+
 .end-game-board__controls {
     width: 60vmin;
     display: flex;
