@@ -87,6 +87,8 @@ table tr td:nth-child(2) {
     border-style: solid;
     box-shadow: 0 3px 20px rgba(33, 5, 168, 0.6),
     0 0.1vmin 0 rgb(53, 0, 168);
+
+    font-size: 3vmin;
 }
 
 .profile-form__button {
@@ -103,4 +105,12 @@ table tr td:nth-child(2) {
 
 .profile-form__avatar-button {
     width: 15vmin;
+}
+
+.profile-form__avatar-text {
+    margin-left: 1vmin;
+    color: azure;
+    font-size: 3vmin;
+    width: 13vmin;
+    word-wrap: break-word;
 }

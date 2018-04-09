@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94a628ce-e1a5-46c5-b334-2be5a647b613" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/public/end-game-page/css/end-game-board.css" afterPath="$PROJECT_DIR$/public/end-game-page/css/end-game-board.css" />
+      <change beforePath="$PROJECT_DIR$/public/profile/css/profile.css" afterPath="$PROJECT_DIR$/public/profile/css/profile.css" />
+      <change beforePath="$PROJECT_DIR$/public/profile/index.html" afterPath="$PROJECT_DIR$/public/profile/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,40 +18,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/end-game-page/lose/index.html">
+        <entry file="file://$PROJECT_DIR$/public/profile/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="703">
+              <caret line="46" column="57" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="end-game-board.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/end-game-page/css/end-game-board.css">
+      <file leaf-file-name="profile.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/profile/css/profile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/end-game-page/win/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stars.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/end-game-page/css/stars.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="288">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -136,9 +116,7 @@
         <option value="$PROJECT_DIR$/public/login/js/avatar.js" />
         <option value="$PROJECT_DIR$/public/registration/js/avatar.js" />
         <option value="$PROJECT_DIR$/public/registration/index.html" />
-        <option value="$PROJECT_DIR$/public/profile/index.html" />
         <option value="$PROJECT_DIR$/public/registration/css/registration-form.css" />
-        <option value="$PROJECT_DIR$/public/profile/css/profile.css" />
         <option value="$PROJECT_DIR$/public/settings/css/settings.css" />
         <option value="$PROJECT_DIR$/public/login/css/login-form.css" />
         <option value="$PROJECT_DIR$/public/login/css/stars.css" />
@@ -147,6 +125,8 @@
         <option value="$PROJECT_DIR$/public/end-game-page/win/index.html" />
         <option value="$PROJECT_DIR$/public/end-game-page/css/stars.css" />
         <option value="$PROJECT_DIR$/public/end-game-page/css/end-game-board.css" />
+        <option value="$PROJECT_DIR$/public/profile/index.html" />
+        <option value="$PROJECT_DIR$/public/profile/css/profile.css" />
       </list>
     </option>
   </component>
@@ -162,8 +142,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="907" />
-    <option name="y" value="54" />
+    <option name="x" value="732" />
+    <option name="y" value="24" />
     <option name="width" value="1188" />
     <option name="height" value="1026" />
   </component>
@@ -205,52 +185,26 @@
               <item name="MagicalPoints" type="b2602c69:ProjectViewProjectNode" />
               <item name="MagicalPoints" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="end-game-page" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MagicalPoints" type="b2602c69:ProjectViewProjectNode" />
               <item name="MagicalPoints" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="end-game-page" type="462c0819:PsiDirectoryNode" />
-              <item name="lose" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MagicalPoints" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MagicalPoints" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="end-game-page" type="462c0819:PsiDirectoryNode" />
-              <item name="win" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MagicalPoints" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MagicalPoints" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MagicalPoints" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MagicalPoints" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MagicalPoints" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MagicalPoints" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MagicalPoints" type="b2602c69:ProjectViewProjectNode" />
               <item name="MagicalPoints" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="scoreboard" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MagicalPoints" type="b2602c69:ProjectViewProjectNode" />
               <item name="MagicalPoints" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="scoreboard" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -300,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MagicalPoints/public/registration/index.html" />
     <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MagicalPoints/public/end-game-page/win/index.html" />
     <configuration name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MagicalPoints/public/profile/index.html" />
@@ -327,9 +281,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (5)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (5)" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
@@ -360,15 +314,15 @@
       <workItem from="1523004467793" duration="2496000" />
       <workItem from="1523109173676" duration="13981000" />
       <workItem from="1523194595047" duration="10451000" />
-      <workItem from="1523212655753" duration="11698000" />
+      <workItem from="1523212655753" duration="12105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105703000" />
+    <option name="totallyTimeSpent" value="106110000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="907" y="54" width="1188" height="1026" extended-state="0" />
+    <frame x="732" y="24" width="1188" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23737374" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -598,22 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/profile/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/profile/css/profile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/settings/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -654,14 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/registration/css/registration-form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/scoreboard/css/scoreboard-table.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -696,8 +626,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/end-game-page/css/end-game-board.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="360">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/registration/css/registration-form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="66" column="26" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="66" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/profile/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="46" column="57" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/profile/css/profile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding />
         </state>
       </provider>
